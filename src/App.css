@@ -1,0 +1,34 @@
+/* reusable styles */
+:root {
+  --primary: #21c063;
+  --primary-dark: #19934c;
+  --sidebar-background: #202c33;
+  --sidebar-background-light: #4f6b7a;
+  --sidebar-icon: #aebac1;
+  --contactlist-background: #111b21;
+  --contactlist-background-light: #20323d;
+  --text-primary: #d1d7db;
+  --text-secondary: #979c9f;
+  --container-background: #272523;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Navbar.jsx */
+.active-navbar-ele {
+  background-color: var(--contactlist-background) !important;
+}
+
+.navbar button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
